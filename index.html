@@ -7,14 +7,14 @@
   <title>
    ALRIGHT｜DX化・システム課題解決・プロジェクト管理のITパートナー
   </title>
-  <meta content="ALRIGHT（オールライト）は、事業会社のDX化・システム課題解決・プロジェクト管理を支援するITパートナーです。ECモール・POSシステム・金融分野のSESに対応。熟練エンジニアがリモートで参画します。無料相談受付中。" name="description"/>
-  <meta content="DX,システム開発,プロジェクト管理,SES,ECモール,POSシステム,金融システム,エンジニア,リモート,ALRIGHT,三軒茶屋" name="keywords"/>
+  <meta content="ALRIGHT（オールライト）は、ラボ型開発サービス（LABO）、受託開発サービス（SIS）、システムエンジニアリングサービス（SES）を通じて、事業会社のDX化・システム課題解決・プロジェクト管理を支援するITパートナーです。無料相談受付中。" name="description"/>
+  <meta content="DX,システム開発,プロジェクト管理,LABO,ラボ型開発,SIS,受託開発,SES,ECモール,POSシステム,金融システム,エンジニア,リモート,ALRIGHT,三軒茶屋" name="keywords"/>
   <meta content="index, follow" name="robots"/>
   <link href="https://alright.example.com/" rel="canonical"/>
   <!-- ===== OGP ===== -->
   <meta content="website" property="og:type"/>
   <meta content="ALRIGHT｜DX化・システム課題解決・システムコンサル・プロジェクト管理" property="og:title"/>
-  <meta content="事業会社のDX化・システム課題解決・プロジェクト管理を支援。ECモール・POS・金融のSESに強い熟練エンジニア集団。" property="og:description"/>
+  <meta content="ラボ型開発、受託開発、SESを通じて、事業会社のDX化・システム課題解決・プロジェクト管理を支援する熟練エンジニア集団。" property="og:description"/>
   <meta content="ja_JP" property="og:locale"/>
   <meta content="ALRIGHT" property="og:site_name"/>
   <!-- ===== 構造化データ ===== -->
@@ -23,7 +23,7 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "ALRIGHT",
-  "description": "事業会社のDX化・システム課題解決・プロジェクト管理を支援するITパートナー。",
+  "description": "ラボ型開発、受託開発、SESを通じて、事業会社のDX化・システム課題解決・プロジェクト管理を支援するITパートナー。",
   "url": "https://alright.example.com/",
   "address": {
     "@type": "PostalAddress",
@@ -119,6 +119,21 @@
   .works-item .detail .tags{display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:1rem}
   .works-item .detail .tags span{background:var(--navy-soft);color:var(--navy);font-size:.78rem;font-weight:500;padding:.3rem .9rem;border-radius:999px}
   .works-item .detail p{color:var(--muted);font-size:.92rem}
+
+
+  .works-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.2rem;margin-bottom:2.8rem}
+  .work-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.5rem 1.4rem;transition:.35s;position:relative;overflow:hidden}
+  .work-card::before{content:"";position:absolute;left:0;top:0;width:100%;height:4px;background:var(--navy);opacity:.9}
+  .work-card:hover{transform:translateY(-5px);box-shadow:0 22px 46px -28px rgba(0,25,101,.45);border-color:var(--navy)}
+  .work-card .service-label{font-family:"Schibsted Grotesk",sans-serif;font-weight:800;letter-spacing:.14em;color:var(--navy);font-size:.72rem;margin-bottom:.5rem}
+  .work-card h3{font-weight:700;font-size:1.05rem;line-height:1.55;margin-bottom:.8rem}
+  .work-card dl{display:grid;grid-template-columns:4.8em 1fr;gap:.35rem .6rem;font-size:.84rem;color:var(--muted)}
+  .work-card dt{font-weight:700;color:var(--ink)}
+  .work-card dd{min-width:0}
+  .works-group{margin-bottom:3.4rem}
+  .works-group-title{display:flex;align-items:baseline;gap:.8rem;margin-bottom:1.2rem;border-bottom:1px solid var(--line);padding-bottom:.8rem}
+  .works-group-title .abbr{font-family:"Schibsted Grotesk",sans-serif;font-weight:800;color:var(--navy);font-size:1.55rem;letter-spacing:.08em}
+  .works-group-title .jp{font-weight:700;font-size:1.05rem}
 
   /* ===== 会社概要 ===== */
   .company{background:var(--gray)}
@@ -233,51 +248,41 @@
       サービス
      </h2>
      <p>
-      事業会社さまの開発体制を、確かな技術力でご支援します。
+      事業会社さまの開発体制を、ラボ型開発・受託開発・SESの3つの形でご支援します。
      </p>
-    </div>
-    <div class="svc-top" data-reveal="">
-     <div>
-      <span class="svc-tag en">
-       SES
-      </span>
-      <h3 style="font-size:1.4rem;margin-top:.8rem">
-       システムエンジニアリングサービス
-      </h3>
-     </div>
     </div>
     <div class="cards">
      <div class="card" data-reveal="">
       <div class="no en">
-       01
+       LABO
       </div>
       <h3>
-       ECモール
+       ラボ型開発サービス
       </h3>
       <p>
-       大規模ECサイト・モール基盤の開発、機能拡張、保守運用までを幅広くご支援します。
+       お客様専属の開発チームとして、要件整理から設計・開発・運用改善まで継続的に伴走します。
       </p>
      </div>
      <div class="card" data-reveal="">
       <div class="no en">
-       02
+       SIS
       </div>
       <h3>
-       POSシステム
+       受託開発サービス
       </h3>
       <p>
-       店舗・流通の基幹を支えるPOSシステムの構築や連携開発に対応します。
+       業務システムやWebサービスの企画・設計・開発・保守まで、成果物責任を持って対応します。
       </p>
      </div>
      <div class="card" data-reveal="">
       <div class="no en">
-       03
+       SES
       </div>
       <h3>
-       金融
+       システムエンジニアリングサービス
       </h3>
       <p>
-       高い品質と信頼性が求められる金融系システムの開発実績を有しています。
+       経験豊富なエンジニアがプロジェクトに参画し、開発・設計・PMO・保守運用を支援します。
       </p>
      </div>
     </div>
@@ -291,7 +296,7 @@
         STRENGTH
        </div>
        <div class="v">
-        熟練エンジニア多数
+        熟練エンジニアによる伴走支援
        </div>
       </div>
      </div>
@@ -304,7 +309,7 @@
         STYLE
        </div>
        <div class="v">
-        リモート参画に対応
+        リモート・常駐どちらも対応
        </div>
       </div>
      </div>
@@ -322,35 +327,109 @@
       実績
      </h2>
      <p>
-      これまでに手がけたプロジェクトの一例をご紹介します。
+      これまでに手がけたプロジェクトの一例をご紹介します。サービス別に、対応領域・開発環境・対応内容を整理しています。
      </p>
     </div>
-    <div class="works-item" data-reveal="">
-     <div class="side">
-      <div class="cat en">
-       FINANCE
+
+    <div class="works-group" data-reveal="">
+     <div class="works-group-title">
+      <span class="abbr en">LABO</span>
+      <span class="jp">ラボ型開発サービス</span>
+     </div>
+     <div class="works-grid">
+      <div class="work-card">
+       <div class="service-label en">LABO</div>
+       <h3>美容業向けLINEマーケティング基盤</h3>
+       <dl><dt>環境</dt><dd>LINE Messaging API / Python / Flask</dd><dt>内容</dt><dd>予約導線、アンケート、顧客分析ダッシュボードの継続開発</dd></dl>
       </div>
-      <div class="name">
-       某ネットバンク
-       <br/>
-       システム開発
+      <div class="work-card">
+       <div class="service-label en">LABO</div>
+       <h3>メディア向けマイクロペイメント基盤</h3>
+       <dl><dt>環境</dt><dd>JavaScript / AWS</dd><dt>内容</dt><dd>記事単位課金、プリチャージ、タグ埋め込み型決済機能の検証開発</dd></dl>
+      </div>
+      <div class="work-card">
+       <div class="service-label en">LABO</div>
+       <h3>顧客管理ダッシュボード開発</h3>
+       <dl><dt>環境</dt><dd>React / Python / PostgreSQL</dd><dt>内容</dt><dd>顧客情報、予約数、問い合わせ状況の可視化機能を開発</dd></dl>
+      </div>
+      <div class="work-card">
+       <div class="service-label en">LABO</div>
+       <h3>SaaS業務管理システム</h3>
+       <dl><dt>環境</dt><dd>Java / Spring Boot / PostgreSQL</dd><dt>内容</dt><dd>業務フロー整理、管理画面、権限管理、保守改善に対応</dd></dl>
+      </div>
+      <div class="work-card">
+       <div class="service-label en">LABO</div>
+       <h3>会員管理プラットフォーム</h3>
+       <dl><dt>環境</dt><dd>AWS / Spring Boot</dd><dt>内容</dt><dd>会員登録、認証、外部サービス連携機能の設計・開発</dd></dl>
       </div>
      </div>
-     <div class="detail">
-      <div class="tags">
-       <span>
-        金融
-       </span>
-       <span>
-        データ連携
-       </span>
-       <span>
-        ATM
-       </span>
+    </div>
+
+    <div class="works-group" data-reveal="">
+     <div class="works-group-title">
+      <span class="abbr en">SIS</span>
+      <span class="jp">受託開発サービス</span>
+     </div>
+     <div class="works-grid">
+      <div class="work-card">
+       <div class="service-label en">SIS</div>
+       <h3>某サイクルサービス ECシステム</h3>
+       <dl><dt>環境</dt><dd>Java / Spring Boot / PostgreSQL / AWS</dd><dt>内容</dt><dd>ECサイト構築、注文管理、在庫管理、決済連携機能の開発</dd></dl>
       </div>
-      <p>
-       ネットバンク向けのシステムにおいて、各種データ連携およびATM関連の開発に参画。信頼性が求められる金融基盤を、熟練エンジニアが支えました。
-      </p>
+      <div class="work-card">
+       <div class="service-label en">SIS</div>
+       <h3>某POSシステム</h3>
+       <dl><dt>環境</dt><dd>Delphi / Oracle</dd><dt>内容</dt><dd>店舗向けPOS機能、会計管理、帳票出力、保守改修に対応</dd></dl>
+      </div>
+      <div class="work-card">
+       <div class="service-label en">SIS</div>
+       <h3>加盟店管理システム</h3>
+       <dl><dt>環境</dt><dd>Java / PostgreSQL / Asteria</dd><dt>内容</dt><dd>加盟店マスタ統合、データ移行、外部連携設計を支援</dd></dl>
+      </div>
+      <div class="work-card">
+       <div class="service-label en">SIS</div>
+       <h3>反社チェックシステム</h3>
+       <dl><dt>環境</dt><dd>DataSpider / REST API</dd><dt>内容</dt><dd>RPA運用からAPI連携方式への刷新、PoC、設計、結合テスト</dd></dl>
+      </div>
+      <div class="work-card">
+       <div class="service-label en">SIS</div>
+       <h3>業務ワークフローシステム</h3>
+       <dl><dt>環境</dt><dd>Java / Oracle</dd><dt>内容</dt><dd>申請・承認フロー、権限管理、帳票出力機能の開発</dd></dl>
+      </div>
+     </div>
+    </div>
+
+    <div class="works-group" data-reveal="">
+     <div class="works-group-title">
+      <span class="abbr en">SES</span>
+      <span class="jp">システムエンジニアリングサービス</span>
+     </div>
+     <div class="works-grid">
+      <div class="work-card">
+       <div class="service-label en">SES</div>
+       <h3>某ネットバンク</h3>
+       <dl><dt>役割</dt><dd>SE / PG</dd><dt>内容</dt><dd>ATM関連システム、各種データ連携、金融基盤開発に参画</dd></dl>
+      </div>
+      <div class="work-card">
+       <div class="service-label en">SES</div>
+       <h3>某大手クレジットカード会社</h3>
+       <dl><dt>役割</dt><dd>PL / SE</dd><dt>内容</dt><dd>加盟店マスタ刷新、基本設計、データ設計、移行方針整理を支援</dd></dl>
+      </div>
+      <div class="work-card">
+       <div class="service-label en">SES</div>
+       <h3>某大手スポーツメーカー</h3>
+       <dl><dt>役割</dt><dd>PMO</dd><dt>内容</dt><dd>進捗管理、品質管理、課題管理、ベンダーコントロールを支援</dd></dl>
+      </div>
+      <div class="work-card">
+       <div class="service-label en">SES</div>
+       <h3>某生命保険会社</h3>
+       <dl><dt>役割</dt><dd>SE</dd><dt>内容</dt><dd>手数料集計、Excel業務のシステム化、ASTERIA連携開発に対応</dd></dl>
+      </div>
+      <div class="work-card">
+       <div class="service-label en">SES</div>
+       <h3>某流通小売企業</h3>
+       <dl><dt>役割</dt><dd>SE / 保守運用</dd><dt>内容</dt><dd>店舗システム、POS連携、運用改善、障害調査を支援</dd></dl>
+      </div>
      </div>
     </div>
    </div>
@@ -398,7 +477,7 @@
        事業内容
       </th>
       <td>
-       DX支援 / システム開発 / プロジェクト管理 / システムエンジニアリングサービス（SES）
+       DX支援 / ラボ型開発サービス（LABO） / 受託開発サービス（SIS） / システムエンジニアリングサービス（SES） / プロジェクト管理
       </td>
      </tr>
     </table>
@@ -481,6 +560,12 @@
         DX化・システム課題のご相談
        </option>
        <option>
+        LABO（ラボ型開発）について
+       </option>
+       <option>
+        SIS（受託開発）について
+       </option>
+       <option>
         SES（エンジニア参画）について
        </option>
        <option>
@@ -509,7 +594,7 @@
     <div class="f-top">
      <div class="f-logo">
       <p>
-       DX化、システム課題解決、プロジェクト管理。事業会社のIT課題に、熟練エンジニアが伴走します。
+       LABO・SIS・SESを通じて、事業会社のDX化、システム課題解決、プロジェクト管理に伴走します。
       </p>
      </div>
      <nav class="f-nav">
